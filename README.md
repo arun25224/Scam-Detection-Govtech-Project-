@@ -63,9 +63,10 @@ pip install pandas numpy scikit-learn tensorflow matplotlib seaborn requests
 2. Open and run the `Scam_Detection.py` script or its corresponding notebook.
 
 
-3. When prompted in the first cell, upload your dataset (CSV or Excel format). The script will automatically detect the file type and load it into memory.
-4. The pipeline will execute sequentially, displaying the data shapes, the class imbalance breakdown, the neural network training progress, the custom threshold confusion matrix, and the final routing summary for the moderation queue.
+3. When prompted in the first cell, upload your dataset (CSV or Excel). The script will automatically detect the file type and load it into memory.
+4. The program will execute sequentially, displaying the data shapes, the class imbalance breakdown, the neural network training progress, the custom threshold confusion matrix, and the final routing summary for the moderation queue.
 
 ## Future Enhancements
 
-If I were to expand this system further, I would replace the TF-IDF vectoriser with dense word embeddings (such as Word2Vec or an LLM embedding API) so the network understands contextual nuance rather than merely counting word frequencies. I would also engineer network-level features to track whether a specific phone number or email address is being reused across multiple separate job postings within a 24-hour window, which is a strong indicator of coordinated bot activity.
+- Replace the TF-IDF vectoriser with dense word embeddings (such as Word2Vec or an LLM embedding API) so the network understands contextual nuance rather than merely counting word frequencies
+- Engineer network-level features to track whether a specific phone number or email address is being reused across multiple separate job postings within a 24-hour window
