@@ -70,3 +70,6 @@ pip install pandas numpy scikit-learn tensorflow matplotlib seaborn requests
 
 - Replace the TF-IDF vectoriser with dense word embeddings (such as Word2Vec or an LLM embedding API) so the network understands contextual nuance rather than merely counting word frequencies
 - Engineer network-level features to track whether a specific phone number or email address is being reused across multiple separate job postings within a 24-hour window
+- Expand the metadata to include external validation APIs, cross-referencing company names against corporate registries or government databases
+- Integrate advanced methodologies, combining the deep learning with tree-based classifiers (such as LightGBM or Random Forest) to capture complex, non-linear dependencies more effectively
+- Package and deploy the model as a real-time fraud detection API, allowing integration with employment platforms
