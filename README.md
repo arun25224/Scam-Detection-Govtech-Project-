@@ -60,7 +60,7 @@ pip install pandas numpy scikit-learn tensorflow matplotlib seaborn requests
 ```
 
 
-2. Open and run the `Govtech_GASP_Submission_ArunThiruArumugam.py` script or its corresponding notebook.
+2. Open and run the `Scam_Detection.py` script or its corresponding notebook.
 
 
 3. When prompted in the first cell, upload your dataset (CSV or Excel format). The script will automatically detect the file type and load it into memory.
