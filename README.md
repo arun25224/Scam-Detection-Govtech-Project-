@@ -14,7 +14,7 @@ Scammers tend to leave metadata footprints such as omitting a company logo or sk
 
 ### Class Imbalance
 
-To handle the heavily imbalanced data, I used stratified sampling during the train-test split to guarantee the exact scam ratio was maintained (4.85%). I also applied class weights during training. This mathematically penalises the neural network whenever it misses a scam, forcing it to pay attention to the minority class rather than taking the easy route of optimising for the 95% of legitimate posts.
+To handle the heavily imbalanced data, I used stratified sampling during the train-test split to guarantee the exact scam ratio was maintained (4.84%). I also applied class weights during training. This mathematically penalises the neural network whenever it misses a scam, forcing it to pay attention to the minority class rather than taking the easy route of optimising for the 95% of legitimate posts.
 
 <img width="295" height="88" alt="image" src="https://github.com/user-attachments/assets/3717b57b-cd92-4430-a745-ff7bb01e0a53" />
 
